@@ -87,13 +87,7 @@ src/main/java/com/finance/
     └── DashboardService.java
 ```
 
-## Prerequisites
 
-- **Java 17** or higher
-- **Maven 3.8+**
-- **MySQL 8.0+**
-
-## Setup & Run
 
 ### 1. Clone the repository
 
@@ -394,16 +388,7 @@ All error responses follow a consistent format:
 
 ---
 
-## Testing with Postman / curl
 
-1. **Login as admin**: `POST /api/auth/login` → get the JWT token
-2. **Set Authorization header**: `Authorization: Bearer <token>`
-3. **Test RBAC**: Login as different users to verify access restrictions
-4. **Test validation**: Send invalid payloads to see structured error responses
-5. **Test filters**: Use query params on `/api/records` to filter by type, category, date
 
----
 
-## License
 
-This project is built for assessment purposes.
